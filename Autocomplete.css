@@ -1,0 +1,28 @@
+.autocomplete {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 700px;
+}
+
+ul {
+    margin-top: -2px;
+    border: 1px solid black;
+    background-color: pink;
+    font-size: 14px;
+    width: 47%;
+    padding: 5px;
+}
+
+.noDots {
+    list-style-type: none;
+    text-align: left;
+    line-height: 28px;
+}
+
+.noDots:hover {
+    cursor: pointer;
+    background-color:aquamarine;
+    color:darkslategrey;
+}

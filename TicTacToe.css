@@ -1,0 +1,39 @@
+.tic-tac-toe-input {
+    width: 2rem;
+    height: 2rem;
+    margin: 10px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    height: 2rem;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color:azure;
+    justify-content: center;
+    align-items: center;
+}
+
+article > p{
+    font-size: 0.75rem;
+}
+
+article > p::before {
+    margin-left: 10px;
+    content: "-> "
+}
+
+summary {
+    margin: 2rem;
+}

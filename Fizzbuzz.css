@@ -1,0 +1,56 @@
+.fizzBuzz {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.fizzBuzz > header{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+    background-color: #9094b9
+}
+
+.fizzBuzz > section > p {
+    color: white;
+}
+
+.fizzBuzzDiv {
+
+    background-color: #440044;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+
+}
+
+.normalFizz,
+.normalBuzz {
+    width: 150px;
+    height: 150px;
+    word-wrap: break-word;
+    border: 1px solid black;
+    color:  #440044;
+    align-content: center;
+    background-color: #F6C6CE;
+    margin: 30px;
+}
+
+.enlargeFizz,
+.enlargeBuzz {
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    align-content: center;
+    word-wrap: break-word;
+    border: 1px solid black;
+    color:  #d8e2d6;
+    background-color: #3c000a
+}
