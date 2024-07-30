@@ -1,0 +1,53 @@
+.accordian {
+    background-color: white;
+
+    padding: 17px;
+    margin: 15px;
+
+
+}
+
+.acc-card {
+    border: 1px solid black;
+
+    border-radius: 3px;
+}
+
+.acc-expanded-card {
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 2px;
+    background-color:bisque;
+}
+
+.acc-header {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.acc-header > button {
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.down {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    cursor: pointer;
+}
+
+.hide-content {
+    display: none;
+}
+
+.display-content {
+    display: flex;
+    height: 100%;
+
+    margin: 20px;
+    font-size: 12px;
+}
